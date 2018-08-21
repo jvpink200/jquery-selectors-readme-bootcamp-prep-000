@@ -5,7 +5,7 @@ function paragraphSelector(){
 }
 
 function firstListItem(){
-  var item = $("");
+  var item = $("ul li:first-child");
   return item;
 }
 function lastImageSelector(){
