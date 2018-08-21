@@ -9,7 +9,7 @@ function firstListItem(){
   return item;
 }
 function lastImageSelector(){
-  var img = $("div img:last-child");
+  var img = $("img:last");
   return img;
 }
 
