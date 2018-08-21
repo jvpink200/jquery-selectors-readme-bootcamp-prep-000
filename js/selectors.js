@@ -9,7 +9,7 @@ function lastImageSelector(){
 }
 
 function divSelector(){
-  var div = $("div");
+  var div = $(".pics");
   return div;
 }
 
