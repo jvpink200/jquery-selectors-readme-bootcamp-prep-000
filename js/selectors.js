@@ -4,6 +4,10 @@ function paragraphSelector(){
   return p;
 }
 
+function firstListItem(){
+  var item = $("");
+  return item;
+}
 function lastImageSelector(){
   var img = $("div img:last-child");
   return img;
