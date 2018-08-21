@@ -13,4 +13,3 @@ function ninjaBabySelector(){
   var ninja = $("img[id='baby-ninja']");
   return ninja;
 }
-
