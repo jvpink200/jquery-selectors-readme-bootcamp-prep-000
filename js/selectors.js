@@ -3,8 +3,6 @@ function paragraphSelector(){
   var p = $("p");
 }
 
-paragraphSelector();
-
 function lastImageSelector(){
 
 }
