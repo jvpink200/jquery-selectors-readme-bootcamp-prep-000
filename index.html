@@ -44,7 +44,10 @@
   <script src="test/index-test.js"></script>
   <script>
   function paragraphSelector(){
-    $("p");
+    var p = $("p");
+    for(i = 0; i < p.length; i++){
+      return p;
+    }
   }
 
   paragraphSelector();
